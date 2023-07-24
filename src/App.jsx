@@ -10,7 +10,7 @@ import ThemeContext from "./context/ThemeContext"; // Importing the ThemeContext
 
 const App = () => {
   const themeHook = useState("light"); // Setting up a state hook for theme
-  const apiKey = "Your_API_KEY"; // API key for OpenWeatherMap
+  const apiKey = "YOUR_API_KEY"; // API key for OpenWeatherMap
 
   // States for storing weather data
   const [data, setData] = useState({});
